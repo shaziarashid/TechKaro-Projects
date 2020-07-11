@@ -1,0 +1,164 @@
+* {
+    font-family: font-family: 'Montserrat', sans-serif;;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: #f0818d;
+    color: black;
+    text-align: center;
+}
+
+h1{
+    margin: 0px;
+    padding: 30px;
+    font-size: 4em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+hr{
+    color: black;
+    border: 1px solid black;
+    width: 47%;
+    margin-top: 0px;
+}
+
+#para1{
+
+    font-size: 1.2em;
+}
+
+
+#btn{
+    background-color: black;
+    color: #f0818d;
+    border: none;
+    padding: 15px 28px;
+    margin: 15px;
+    font-size: 1.3em;
+}
+
+#btn:hover{
+    background-color: #ece8e5;
+    color: #222;
+    transition: color 1s, background-color 1s;
+    cursor: pointer;
+}
+main{
+    background-color: #ece8e5;
+    text-align: center;
+    height: 370px;
+}
+
+
+h2{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Sofia', cursive;
+}
+
+
+div#sect{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+div#sect i{
+    font-size: 5em;
+}
+
+
+#sect figure:hover i {
+    color: #ef3b4d;
+    transition: color 1s;
+}
+
+/* i:hover{
+    color: #ef3b4d;
+} */
+
+/* #sect > section{
+    flex: 1;
+
+} */
+
+#contact {
+    text-align: center;
+    background-color: #a5bebf;
+    padding: 15px;
+}
+
+#contact button:hover {
+    background-color: #222;
+    color: #FCDEA6;
+    transition: color 1s, background-color 1s;
+    cursor: pointer;
+}
+
+
+h3{    
+    font-family: 'Sofia', cursive;
+    margin: 0;
+}
+
+
+
+#twr-btn{
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #222;
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-size: 2.3em;
+}
+
+#yout-btn{
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #222;
+    border-radius: 50px;
+    padding: 11px 13px;
+    font-size: 2.3em;
+}
+
+#fb-btn{
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #222;
+    border-radius: 50px;
+    padding: 10px 16px;
+    font-size: 2.3em;
+    
+}
+
+
+footer{
+    background-color: black;
+    text-align: right;
+    color: #c2c2c2;
+    padding: 5px;
+}
+
+footer i{
+    font-size: 1.3em;
+    margin: 0 5px;
+
+}
+footer:hover i{
+    color: #ef3b4d;
+    transition: color 1s;
+    cursor: pointer;
+}
+
+#pfoot{
+    margin: 0;
+    font-size: 1.3em;
+    padding: 15px;
+}
